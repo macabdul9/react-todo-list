@@ -30,7 +30,7 @@ export default class App extends Component {
     this.setState({items:[]})
   }
   render() {
-    console.log('App.js', this.state.items);
+    // console.log('App.js', this.state.items);
     return (
         <div className='container'>
           <div className='col-10 mx-auto col-md-8 mt-4'>
